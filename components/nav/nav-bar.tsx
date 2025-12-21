@@ -4,8 +4,8 @@ import {
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,
-} from "./navigation-menu";
-import { Button } from "./button";
+} from "../ui/navigation-menu";
+import { Button } from "../ui/button";
 
 export function NavBar() {
   return (
