@@ -27,7 +27,9 @@ export function NavBar() {
               </Button>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Button asChild>Sign Up</Button>
+              <Button asChild>
+                <Link href="/"> Sign Up </Link>
+              </Button>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
